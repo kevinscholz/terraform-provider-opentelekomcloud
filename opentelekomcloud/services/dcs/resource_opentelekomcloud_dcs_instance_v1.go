@@ -61,7 +61,7 @@ func ResourceDcsInstanceV1() *schema.Resource {
 				Required: true,
 				ForceNew: true,
 				ValidateFunc: validation.StringInSlice([]string{
-					"3.0", "4.0", "5.0",
+					"3.0", "4.0", "5.0", "6.0",
 				}, false),
 			},
 			"capacity": {
